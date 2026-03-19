@@ -1,6 +1,6 @@
-# 🛡️ Sentinel-IDS: Real-time Network Intrusion Detection
+# 👻 Ghost-Net: Real-time Network Intrusion Detection
 
-Sentinel is a lightweight, Python-powered Network Intrusion Detection System (IDS) focused on identifying **TCP SYN scans**. This project simulates a professional security dashboard for real-time network traffic monitoring.
+Ghost-Net is a lightweight, Python-powered Network Intrusion Detection System (IDS) focused on identifying **TCP SYN scans**. This project simulates a professional security dashboard for real-time network traffic monitoring.
 
 ---
 
@@ -15,12 +15,12 @@ Sentinel is a lightweight, Python-powered Network Intrusion Detection System (ID
 
 ## 🛠️ Technical Details
 
-The tool detects **Half-open scanning** — a technique used by attackers to map open ports without completing the TCP handshake:
+Ghost-Net detects **Half-open scanning** — a technique used by attackers to map open ports without completing the TCP handshake:
 
 ```
 Attacker  →  SYN     →  Target
 Target    →  SYN-ACK →  Attacker
-Attacker ignores ACK   ← Sentinel flags the threat
+Attacker ignores ACK   ← Ghost-Net flags the threat
 ```
 
 ### Requirements
@@ -35,7 +35,7 @@ Attacker ignores ACK   ← Sentinel flags the threat
 
 ## 📦 How to Run
 
-**1. Start Sentinel (defender):**
+**1. Start Ghost-Net (defender):**
 ```bash
 sudo python3 sentinel_dashboard.py
 ```
@@ -49,7 +49,7 @@ sudo python3 attacker.py
 
 ## 📊 Incident Report
 
-After pressing `Ctrl+C`, Sentinel automatically generates `sentinel_incident_report.txt` — a structured table of all captured threats, including IP addresses, target ports, and connection attempt counts.
+After pressing `Ctrl+C`, Ghost-Net automatically generates `sentinel_incident_report.txt` — a structured table of all captured threats, including IP addresses, target ports, and connection attempt counts.
 
 ---
 
