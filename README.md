@@ -49,7 +49,7 @@ sudo python3 attacker.py
 
 ## 📊 Incident Report
 
-After pressing `Ctrl+C`, Ghost-Net automatically generates `sentinel_incident_report.txt` — a structured table of all captured threats, including IP addresses, target ports, and connection attempt counts.
+After pressing `Ctrl+C`, Ghost-Net automatically generates `report.txt` — a structured table of all captured threats, including IP addresses, target ports, and connection attempt counts.
 
 ---
 
