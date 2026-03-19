@@ -37,7 +37,7 @@ Attacker ignores ACK   ← Ghost-Net flags the threat
 
 **1. Start Ghost-Net (defender):**
 ```bash
-sudo python3 sentinel_dashboard.py
+sudo python3 ghost_net.py
 ```
 
 **2. Start the attack simulation (attacker):**
